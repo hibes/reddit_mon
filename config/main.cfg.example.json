@@ -1,4 +1,6 @@
 {
+  "destinationEmail": "anyone@example.com",
+  "emailSubject": "Reddit_Mon Post Detected",
   "domain": "com.reddit_mon",
   "url": "https://www.reddit.com/search.json?q=reddit_mon&t=day",
   "transporter": {
