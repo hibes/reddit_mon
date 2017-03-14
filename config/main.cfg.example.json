@@ -1,4 +1,11 @@
 {
   "domain": "com.reddit_mon",
-  "url": "https://www.reddit.com/search.json?q=reddit_mon&t=day"
+  "url": "https://www.reddit.com/search.json?q=reddit_mon&t=day",
+  "transporter": {
+    "service": "gmail",
+    "auth": {
+      "user": "user@gmail.com",
+      "pass": "pass"
+    }
+  }
 }
