@@ -8,4 +8,4 @@ SCRIPTS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P )"
 SCRIPTS_DIR="${SCRIPTS_DIR:?}"
 
 DOCKER_IMAGE_NAME=apollo.rip.reddit.monitor
-SUDO=$(which sudo)
+SUDO=$(which sudo || echo -ne "")
