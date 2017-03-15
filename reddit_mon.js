@@ -30,7 +30,7 @@ let uagent = `darwin:${conf.domain}:${pkg.version}`;
 let url = require('url');
 
 let mailOptions = {
-  'from': '"RedditMon" <reddit.mon@ibespwn.com',
+  'from': '"' + conf.sourceName + '" <' + conf.sourceEmail + '>',
   'to': conf.destinationEmail,
   'subject': conf.emailSubject,
   'html': ''

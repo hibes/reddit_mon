@@ -3,12 +3,14 @@
   "dockerImageName": "example.reddit.mon",
   "domain": "com.reddit_mon",
   "emailSubject": "Reddit_Mon Post Detected",
-  "url": "https://www.reddit.com/search.json?q=reddit_mon&t=day",
+  "sourceEmail": "reddit_mon@ibespwn.com",
+  "sourceName": "Reddit Mon",
   "transporter": {
     "auth": {
       "user": "user@gmail.com",
       "pass": "pass"
     },
     "service": "gmail"
-  }
+  },
+  "url": "https://www.reddit.com/search.json?q=reddit_mon&t=day"
 }
