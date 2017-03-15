@@ -9,3 +9,7 @@ SCRIPTS_DIR="${SCRIPTS_DIR:?}"
 
 DOCKER_IMAGE_NAME=apollo.rip.reddit.monitor
 SUDO=$(which sudo || echo -ne "")
+
+getDockerImageName() {
+  node -e "console.log(require('${SCRIPTS_DIR}/../config/main.cfg.json').dockerImageName);"
+}

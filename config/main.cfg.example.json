@@ -1,13 +1,14 @@
 {
   "destinationEmail": "anyone@example.com",
-  "emailSubject": "Reddit_Mon Post Detected",
+  "dockerImageName": "example.reddit.mon",
   "domain": "com.reddit_mon",
+  "emailSubject": "Reddit_Mon Post Detected",
   "url": "https://www.reddit.com/search.json?q=reddit_mon&t=day",
   "transporter": {
-    "service": "gmail",
     "auth": {
       "user": "user@gmail.com",
       "pass": "pass"
-    }
+    },
+    "service": "gmail"
   }
 }
