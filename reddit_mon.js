@@ -49,7 +49,9 @@ function load() {
 }
 
 function save(result) {
-  fs.writeFile(SAVE_FILENAME, JSON.stringify(getData(result)));
+  fs.writeFile(SAVE_FILENAME, JSON.stringify(getData(result)), (err) => {
+    if (err) console.log(`Error writing file ${err}`);
+  });
 }
 
 function detectNew(oldArray, newArray) {
