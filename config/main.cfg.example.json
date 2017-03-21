@@ -3,7 +3,7 @@
   "dockerImageName": "example.reddit.mon",
   "domain": "com.reddit_mon",
   "emailSubject": "Reddit_Mon Post Detected",
-  "sourceEmail": "reddit_mon@ibespwn.com",
+  "sourceEmail": "reddit_mon@example.com",
   "sourceName": "Reddit Mon",
   "transporter": {
     "auth": {
